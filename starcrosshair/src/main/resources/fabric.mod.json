@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "starcrosshair",
+  "version": "${version}",
+  "name": "Star Crosshair",
+  "description": "Ersetzt das Fadenkreuz durch einen rotierenden Stern.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.starcrosshair.StarCrosshairClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
